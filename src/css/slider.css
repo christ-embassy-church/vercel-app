@@ -1,0 +1,41 @@
+.carousel--image{
+  width: 50%;
+}
+
+.carousel--title{
+  position: absolute;
+  color: white;
+  bottom: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.658);
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carousel--link{
+  color: rgb(71, 182, 255);
+}
+
+
+@media only screen and (min-width: 1030px) {
+  .carousel.carousel-slider{
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+ }
+ .carousel-root{
+  width: 60%;
+  margin: auto;
+ }
+ .slide-show{
+  margin: auto;
+ }
+ .carousel{
+  margin: auto;
+ }
+ .carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+  color: blue;
+ }
+}
